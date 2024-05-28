@@ -1,0 +1,36 @@
+h1{
+    font-size: 3rem;
+    margin-top: 2.5rem;
+}
+h2{
+    font-size: 2.5rem;
+    margin-top: 2.2rem;
+}
+h3{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+h4{
+    font-size: 2rem;
+    margin-top: 1.8rem;
+}
+p{
+    font-size: 1.6rem;
+}
+ul{
+    font-size: 1.4rem;
+    list-style: none;
+}
+/* p{
+    font-size: 1.6rem;
+} */
+#all_description{
+    padding: 4rem;
+}
+.discriptionsss{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

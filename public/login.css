@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://c8.alamy.com/comp/PP9KH2/donate-blood-concept-with-blood-bag-and-heart-blood-donation-vector-illustration-isolated-on-white-background-world-blood-donor-day-june-14-PP9KH2.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #56b7e1;
+    background-size: 100% 100%;
+    min-height: 97vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    background-color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    backdrop-filter: blur(4px);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="Date"],
+input[type="number"],
+input[type="password"], select {
+    width: 90%;
+    background: #ffffff;
+    backdrop-filter: blur(4px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #56b7e1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4d8ccf;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
