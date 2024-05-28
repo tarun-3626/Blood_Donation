@@ -7,7 +7,7 @@ const path = require("path");
 const cors = require("cors");
 const bodyparser = require("body-parser");
 const bcrypt = require("bcryptjs/dist/bcrypt");
-const port = 5000;
+const port = 8000;
 
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
